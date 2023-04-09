@@ -1,7 +1,7 @@
 # 코딩테스트 입문 100제
 [링크](https://school.programmers.co.kr/learn/challenges/beginner?order=acceptance_asc) 
 
-## 두 수의 합
+## 1. 두 수의 합
 
 
 ### 문제 설명
@@ -48,7 +48,7 @@
 
 - num1이 100이고 num2가 2이므로 100 + 2 = 102를 return합니다.
 
-## 두 수의 차
+## 2. 두 수의 차
 
 
 ### 문제 설명
