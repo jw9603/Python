@@ -12,10 +12,29 @@
 ### 제한사항
 -50,000 ≤ num1 ≤ 50,000
 -50,000 ≤ num2 ≤ 50,000
-### 입출력 예
-num1	num2	result
-2	3	5
-100	2	102
+
+<h5>입출력 예</h5>
+<table class="table">
+        <thead><tr>
+<th>num1</th>
+<th>num2</th>
+<th>result</th>
+</tr>
+</thead>
+        <tbody><tr>
+<td>3</td>
+<td>12</td>
+<td>[2, 3, 5]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>15</td>
+<td>[100,2,102]</td>
+</tr>
+
+</tbody>
+      </table>
+<hr>
 
 
 ### 입출력 예 설명
