@@ -1,5 +1,5 @@
 # Python
-- This repository is a place to record problems.
+- This repository is a place to record problems!!
 
 ---
 ## coding_test_basic
