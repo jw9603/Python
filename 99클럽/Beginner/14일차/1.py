@@ -11,11 +11,9 @@ class Solution(object):
         :rtype: bool
         """
         def isSubtreeSymmetric(left,right):
-            if not left and not right: # 왼쪽, 오른쪽이 없으면
+            if not left and not right: # 왼쪽, 오른쪽 둘 다 없으면
                 return True
             elif not left or not right: # 둘 중 하나만 있으면
                 return False
-            else: # 둘 다 없으면
+            else: # 둘 다 있으면
                 return left.val == right.val and isSubtreeSymmetric(left.left, right.right) and isSubtreeSymmetric(left.right, right.left)
-        
-        return isSubtreeSymmetric(root,root)
