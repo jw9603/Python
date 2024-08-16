@@ -1,0 +1,303 @@
+## 자료구조 스택 (Stack) 이해하기
+
+스택(Stack)은 데이터 구조 중 하나로, 데이터가 나중에 들어온 것이 먼저 나가는 **LIFO**(Last In, First Out) 방식으로 동작합니다. 스택을 사용하면 웹 브라우저의 뒤로 가기 기능, 텍스트 편집기의 실행 취소(undo) 기능 등 다양한 곳에서 유용하게 활용할 수 있습니다.
+
+이번 포스팅에서는 스택의 기본 개념을 설명하고, Python을 사용하여 스택을 구현하는 방법을 단계별로 소개하겠습니다.
+
+---
+
+### 1. 스택의 기본 개념
+
+스택은 기본적으로 두 가지 주요 연산을 지원합니다:
+
+- **push**: 스택의 가장 위에 새로운 요소를 추가합니다.
+- **pop**: 스택의 가장 위에 있는 요소를 제거하고 반환합니다.
+
+추가적으로, 다음과 같은 연산이 있을 수 있습니다:
+
+- **peek**: 스택의 가장 위에 있는 요소를 반환하지만 제거하지는 않습니다.
+- **is_empty**: 스택이 비어 있는지 확인합니다.
+- **size**: 스택에 있는 요소의 개수를 반환합니다.
+
+스택의 대표적인 예로는 책을 쌓아 올리는 것을 생각할 수 있습니다. 책을 한 권씩 쌓아 올리면 나중에 쌓은 책을 먼저 꺼낼 수 있습니다.
+
+아래 링크를 통해 직접 스택 자료구조를 이해할 수 있습니다.
+
+[Linked List (Single, Doubly), Stack, Queue, Deque - VisuAlgo](https://visualgo.net/en/list)
+
+![image](https://github.com/user-attachments/assets/9f8b7fec-5009-4e17-bc03-e685fa74f4d0)
+
+
+---
+
+### 2. Python으로 스택 구현하기
+
+이제 Python을 사용하여 스택을 직접 구현해보겠습니다. Python에서는 리스트(List)를 사용하여 스택을 간단하게 구현할 수 있습니다.
+
+```python
+class Stack:
+
+    def __init__(self):
+        self.items = []
+
+    def is_empty(self):
+        return len(self.items) == 0
+
+    def push(self, item):
+        self.items.append(item)
+
+    def pop(self):
+        if not self.is_empty():
+            return self.items.pop()
+        else:
+            raise IndexError('You popped from an empty stack')
+
+    def peek(self):
+        if not self.is_empty():
+            return self.items[-1]
+        else:
+            raise IndexError("You peeked from an empty stack")
+
+    def size(self):
+        return len(self.items)
+
+    def __repr__(self):
+        return f"Stack({self.items})"
+
+    def __str__(self):
+        return str(self.items)
+
+```
+
+위 코드는 `Stack` 클래스의 기본 구조를 보여줍니다. 각 메서드를 하나씩 살펴보겠습니다.
+
+- `__init__`: 스택을 초기화합니다. 내부적으로는 리스트 `self.items`를 사용하여 스택을 구현합니다.
+- `is_empty`: 스택이 비어 있는지 여부를 확인합니다. `self.items`의 길이가 0이면 비어 있는 것으로 간주합니다.
+- `push`: 스택의 맨 위에 새로운 요소를 추가합니다. Python 리스트의 `append()` 메서드를 사용하여 요소를 추가합니다.
+- `pop`: 스택의 맨 위에 있는 요소를 제거하고 반환합니다. 리스트의 `pop()` 메서드를 사용합니다.
+- `peek`: 스택의 맨 위에 있는 요소를 반환하지만, 제거하지는 않습니다. 리스트의 마지막 요소를 반환합니다.
+- `size`: 스택에 있는 요소의 개수를 반환합니다.
+- `__repr__`: 스택 객체의 문자열 표현을 반환합니다. 이 메서드는 주로 디버깅을 위해 사용되며, `Stack` 객체의 더 자세한 정보를 포함할 수 있도록 디자인되었습니다.
+- `__str__`: 스택의 현재 상태를 문자열로 반환합니다. 주로 사용자가 객체를 더 쉽게 이해할 수 있도록 가독성을 고려한 출력 포맷을 제공합니다.
+
+### `__repr__`와 `__str__`의 차이점
+
+Python에서는 객체를 문자열로 표현할 때 `__repr__`와 `__str__`라는 두 가지 메서드를 사용할 수 있습니다. 이 두 메서드는 비슷해 보이지만, 그 목적과 사용 용도가 다릅니다.
+
+- **`__repr__`**: 객체의 공식적인 문자열 표현을 반환합니다. 주로 개발자가 객체의 상태를 확인하거나, 디버깅할 때 유용하게 사용됩니다. 일반적으로 `__repr__`은 객체를 가능한 한 Python 코드에서 사용할 수 있는 형태로 반환해야 합니다. 예를 들어, `Stack([1, 2, 3])`처럼 객체를 재생성할 수 있는 문자열을 반환하는 것이 이상적입니다. `__repr__`은 `repr()` 함수나, 객체를 콘솔에서 입력했을 때 호출됩니다.
+- **`__str__`**: 객체의 비공식적인(사용자 친화적인) 문자열 표현을 반환합니다. 사용자가 객체를 쉽게 이해할 수 있도록 하는 데 중점을 둡니다. 주로 `print()` 함수나 `str()` 함수에서 호출됩니다. `__str__`은 사용자가 객체의 상태를 확인할 때 읽기 쉬운 형식으로 정보를 제공하는 데 사용됩니다.
+
+### `__repr__`와 `__str__`의 예
+
+```python
+stack = Stack()
+stack.push(1)
+stack.push(2)
+stack.push(3)
+
+print(str(stack))  # __str__ 호출, 출력 결과: [1, 2, 3]
+print(repr(stack))  # __repr__ 호출, 출력 결과: Stack([1, 2, 3])
+
+```
+
+- `str(stack)`은 `__str__` 메서드를 호출하여 스택의 요소만 보여주는 간단한 문자열 `[1, 2, 3]`을 반환합니다.
+- `repr(stack)`은 `__repr__` 메서드를 호출하여 스택의 클래스명과 내부 상태를 보여주는 `Stack([1, 2, 3])`을 반환합니다.
+
+이처럼 `__str__`은 사용자가 객체를 쉽게 이해할 수 있도록 하는 데 주로 사용되고, `__repr__`은 객체의 정확한 상태를 개발자가 확인할 수 있도록 합니다. 만약 `__str__` 메서드가 정의되지 않은 경우, `print()` 함수 등에서 `__repr__`이 대신 호출됩니다.
+
+---
+
+### 3. 스택 사용 예시
+
+이제 위에서 구현한 스택을 실제로 사용해 보겠습니다.
+
+```python
+# 스택 생성
+stack = Stack()
+
+# 스택에 요소 추가
+stack.push(1)
+stack.push(2)
+stack.push(3)
+print(f"스택 상태: {stack}")
+
+# 스택에서 요소 제거
+print(f"pop: {stack.pop()}")
+print(f"스택 상태: {stack}")
+
+# 스택의 맨 위 요소 확인
+print(f"peek: {stack.peek()}")
+print(f"스택 상태: {stack}")
+
+# 스택의 크기 확인
+print(f"스택 크기: {stack.size()}")
+
+# 스택 비어 있는지 확인
+print(f"스택이 비어 있는가? {stack.is_empty()}")
+
+```
+
+출력 결과:
+
+```
+스택 상태: [1, 2, 3]
+pop: 3
+스택 상태: [1, 2]
+peek: 2
+스택 상태: [1, 2]
+스택 크기: 2
+스택이 비어 있는가? False
+
+```
+
+위 예시를 통해 스택의 동작 방식을 쉽게 이해할 수 있습니다.
+
+---
+
+### 4. Python의 `deque` 라이브러리로 스택 구현하기
+
+Python의 `collections` 모듈에서 제공하는 `deque`(double-ended queue)를 사용하여 스택을 효율적으로 구현할 수도 있습니다. `deque`는 양쪽에서 요소를 추가하거나 제거할 수 있는 자료구조로, 스택의 `LIFO` 동작을 매우 빠르게 수행할 수 있습니다. 리스트를 사용한 스택 구현과 달리, `deque`는 양 끝에서의 삽입과 삭제가 O(1) 시간 복잡도로 이루어집니다.
+
+아래는 `deque`를 사용한 스택 구현 예제입니다.
+
+```python
+from collections import deque
+
+class Stack:
+
+    def __init__(self):
+        self.items = deque() # [] 대신 deque(), deque([])처럼 해도 됨
+
+    def is_empty(self):
+        return len(self.items) == 0
+
+    def push(self, item):
+        self.items.append(item)
+
+    def pop(self):
+        if not self.is_empty():
+            return self.items.pop()
+        else:
+            raise IndexError('You popped from an empty stack')
+
+    def peek(self):
+        if not self.is_empty():
+            return self.items[-1]
+        else:
+            raise IndexError("You peeked from an empty stack")
+
+    def size(self):
+        return len(self.items)
+
+    def __repr__(self):
+        return f"Stack({list(self.items)})"
+
+    def __str__(self):
+        return str(list(self.items))
+
+```
+
+`deque`를 사용하여 구현된 스택은 리스트를 사용한 것과 동일한 기능을 가지며, 더 나은 성능을 제공합니다. 특히 스택이 커질수록 `deque`를 사용한 구현이 더 효율적입니다.
+
+---
+
+### 5. 스택 (deque) 사용 예시
+
+이제 위에서 구현한 스택을 실제로 사용해 보겠습니다.
+
+```python
+# 스택 생성
+stack = Stack()
+
+# 스택에 요소 추가
+stack.push(1)
+stack.push(2)
+stack.push(3)
+print(f"스택 상태: {stack}")
+
+# 스택에서 요소 제거
+print(f"pop: {stack.pop()}")
+print(f"스택 상태: {stack}")
+
+# 스택의 맨 위 요소 확인
+print(f"peek: {stack.peek()}")
+print(f"스택 상태: {stack}")
+
+# 스택의 크기 확인
+print(f"스택 크기: {stack.size()}")
+
+# 스택 비어 있는지 확인
+print(f"스택이 비어 있는가? {stack.is_empty()}")
+
+```
+
+출력 결과:
+
+```less
+less코드 복사
+스택 상태: [1, 2, 3]
+pop: 3
+스택 상태: [1, 2]
+peek: 2
+스택 상태: [1, 2]
+스택 크기: 2
+스택이 비어 있는가? False
+
+```
+
+위 예시를 통해 스택의 동작 방식을 쉽게 이해할 수 있습니다.
+
+---
+
+### 5. 스택의 실제 활용 예
+
+스택은 알고리즘 문제 해결 시 자주 사용됩니다. 예를 들어, 괄호의 유효성을 검사하는 문제에서는 스택을 사용하여 여는 괄호와 닫는 괄호를 짝짓는 작업을 수행할 수 있습니다.
+
+다음은 괄호 유효성 검사를 위한 코드 예시입니다.
+
+```python
+def is_balanced(expression):
+    stack = Stack()
+    for char in expression:
+        if char in "([{":
+            stack.push(char)
+        elif char in ")]}":
+            if stack.is_empty():
+                return False
+            top = stack.pop()
+            if (top == '(' and char != ')') or \\
+               (top == '[' and char != ']') or \\
+               (top == '{' and char != '}'):
+                return False
+    return stack.is_empty()
+
+# 테스트
+expression = "{[()]}"
+print(f"{expression} is balanced: {is_balanced(expression)}")
+
+expression = "{[(])}"
+print(f"{expression} is balanced: {is_balanced(expression)}")
+
+```
+
+출력 결과:
+
+```
+{[()]} is balanced: True
+{[(])} is balanced: False
+
+```
+
+이 코드는 스택을 사용하여 괄호가 제대로 짝지어져 있는지 확인합니다. 여는 괄호는 스택에 쌓고, 닫는 괄호를 만나면 스택에서 꺼내어 짝이 맞는지 확인합니다.
+
+---
+
+### 결론
+
+스택은 매우 기본적이면서도 강력한 자료구조입니다. Python을 활용하면 스택을 쉽게 구현하고 다양한 문제 해결에 적용할 수 있습니다. 이 블로그에서는 스택의 기본 개념과 구현 방법을 설명했고, Python을 사용한 예제 코드를 통해 스택의 동작 원리를 살펴보았습니다. 스택을 이해하고 활용할 수 있다면, 더 복잡한 자료구조나 알고리즘을 이해하는 데 큰 도움이 될 것입니다.
+
+전체 코드는 아래 링크를 들어가셔서 확인하시면 좋을것 같습니다:
+
+[Python/자료구조/구현/Stack at main · jw9603/Python](https://github.com/jw9603/Python/tree/main/자료구조/구현/Stack)
+
+읽어주셔서 감사합니다!
