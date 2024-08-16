@@ -296,8 +296,6 @@ print(f"{expression} is balanced: {is_balanced(expression)}")
 
 스택은 매우 기본적이면서도 강력한 자료구조입니다. Python을 활용하면 스택을 쉽게 구현하고 다양한 문제 해결에 적용할 수 있습니다. 이 블로그에서는 스택의 기본 개념과 구현 방법을 설명했고, Python을 사용한 예제 코드를 통해 스택의 동작 원리를 살펴보았습니다. 스택을 이해하고 활용할 수 있다면, 더 복잡한 자료구조나 알고리즘을 이해하는 데 큰 도움이 될 것입니다.
 
-전체 코드는 아래 링크를 들어가셔서 확인하시면 좋을것 같습니다:
-
-[Python/자료구조/구현/Stack at main · jw9603/Python](https://github.com/jw9603/Python/tree/main/자료구조/구현/Stack)
+https://velog.io/@jw9603/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EC%8A%A4%ED%83%9D
 
 읽어주셔서 감사합니다!
