@@ -45,7 +45,6 @@ class LinkedList:
         prev = None
         while current: 
             if current.key == key: # current가 삭제하고 싶은 키일때
-                pass
                 if prev:
                     prev.next = current.next
                 else: # None
