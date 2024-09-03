@@ -363,6 +363,10 @@ print(hash((1, 2, 3)))  # 튜플의 해시 값
 
 더 나은 개발자가 될거야! ⭐
 
+➕ 리스트가 아닌 링크드 리스트를 통해서도 해시 테이블과 체이닝 기법을 구현할 수 있습니다. 아래 코드를 참조하시면 좋을것 같습니다.
+- Linked_List.py
+- chaining_linked_list.py
+
 ## References
 
 - https://hik-coding.tistory.com/298
