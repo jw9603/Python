@@ -11,6 +11,13 @@
   - ... (추후 update)
 - https://www.acmicpc.net/
 
+## LeetCode
+- 리트코드 문제 풀이
+- 구성:
+  - 문제들
+  - TLI글 (벨로그 업로드)
+- https://leetcode.com/
+
 
 ## Programmers
 - 프로그래머스에서 진행한 문제들을 정리
