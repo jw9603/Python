@@ -13,4 +13,15 @@ def sol(N,time):
         for j in range(i+1):
             result += time[j]
     return result
+
+def sol2(N,time):
+    result = 0
+    curr = 0
+    
+    for t in time:
+        curr += t
+        result += curr
+    return result
+
 print(sol(N=N,time=time))
+print(sol2(N=N,time=time))
