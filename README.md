@@ -27,6 +27,10 @@
   - ... (추후 update)
 - https://programmers.co.kr/
 
+## 이코테_스터디
+- 이것이 코딩테스트다 with python 책 스터디
+- 매주 1 chapter를 보고 chapter당 10문제 풀이
+
 ## Codeup
 - 코드업에서 기초 100제 문제
 - https://codeup.kr/
