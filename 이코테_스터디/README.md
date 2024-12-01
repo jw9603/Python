@@ -13,7 +13,18 @@
 ## 📖 스터디 계획
 
 - **11월 25일 ~ 12월 4일**  
-  - 그리디 알고리즘 문제 풀이  
+  - 그리디 알고리즘 문제 풀이
+    - **1주차 문제 리스트**  
+      1. [그리디-1: 뒤집기](https://www.acmicpc.net/problem/1439)  
+      2. [그리디-2: 무지의 먹방 라이브](https://school.programmers.co.kr/learn/courses/30/lessons/42891)  
+      3. [그리디-3: ATM](https://www.acmicpc.net/problem/11399)  
+      4. [그리디-4: 보물](https://www.acmicpc.net/problem/1026)  
+      5. [그리디-5: 주유소](https://www.acmicpc.net/problem/13305)  
+      6. [그리디-6: 30](https://www.acmicpc.net/problem/10610)  
+      7. [그리디-7: 카드 정렬하기](https://www.acmicpc.net/problem/1715)  
+      8. [그리디-8: 회의실 배정](https://www.acmicpc.net/problem/1931)  
+      9. [그리디-9: 단어 수학](https://www.acmicpc.net/problem/1339)  
+      10. [그리디-10: Maximum Matrix Sum](https://leetcode.com/problems/maximum-matrix-sum/description/?envType=daily-question&envId=2024-11-24)   
 - **12월 5일 ~ 12월 11일**  
   - 구현 문제 풀이  
 - **12월 12일 ~ 12월 18일**  
