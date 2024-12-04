@@ -8,6 +8,7 @@ class ListNode(object):
         self.next = next
 class Solution(object):
     def middleNode(self, head):
+        # https://leetcode.com/problems/middle-of-the-linked-list/submissions/1469832333
         """
         :type head: Optional[ListNode]
         :rtype: Optional[ListNode]
