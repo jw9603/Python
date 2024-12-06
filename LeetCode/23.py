@@ -3,7 +3,7 @@
 
 from heapq import heappop, heappush
 import sys
-sys.setrecursionlimit(10**4)  # 재귀 깊이를 1,000,000으로 늘림
+sys.setrecursionlimit(10**6)  # 재귀 깊이를 1,000,000으로 늘림
 
 # Definition for singly-linked list.
 class ListNode(object):
