@@ -64,5 +64,5 @@ if __name__ == '__main__':
     
     
     print(f"using recursive method: {a.inorderTraversal1(bt.root)}")
-    print(f"using recursive method: {a.inorderTraversal2(bt.root)}")
+    print(f"using stack method: {a.inorderTraversal2(bt.root)}")
     
