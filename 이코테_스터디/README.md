@@ -16,8 +16,8 @@
   - 그리디 알고리즘 문제 풀이
     - **1주차 문제 리스트**  
       1. [그리디-1: 카드 정렬하기](https://www.acmicpc.net/problem/1715)  
-      8. [그리디-2: 회의실 배정](https://www.acmicpc.net/problem/1931)  
-      9. [그리디-3: 단어 수학](https://www.acmicpc.net/problem/1339)   
+      8. [그리디-2: 저울](https://www.acmicpc.net/problem/2437)
+      9. [그리디-3: 행렬](https://www.acmicpc.net/problem/1080)  
 - **12월 20일 ~ 12월 26일**  
   - 구현 문제 풀이  
 - **12월 27일 ~ 1월 2일**  
