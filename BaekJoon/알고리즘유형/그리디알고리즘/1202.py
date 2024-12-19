@@ -1,0 +1,24 @@
+# 백준 1202. 보석 도둑
+# https://www.acmicpc.net/problem/1202
+import sys
+from heapq import heappop, heappush
+
+N, K = map(int, sys.stdin.readline().split())
+jewels = [[*map(int, sys.stdin.readline().split())] for _ in range(N)]
+bags = [int(sys.stdin.readline().strip()) for _ in range(K)]
+
+jewels.sort()
+bags.sort()
+heap = []
+idx = 0
+max_price = 0
+for bag in bags:
+    
+    while idx < N  and jewels[idx][0] <= bag:
+        heappush(heap,(-jewels[idx][1]))
+        idx += 1
+    
+    if heap:
+        max_price -= heappop(heap)
+print(max_price)
+    
