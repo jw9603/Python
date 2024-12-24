@@ -19,7 +19,11 @@
       8. [그리디-2: 저울](https://www.acmicpc.net/problem/2437)
       9. [그리디-3: 행렬](https://www.acmicpc.net/problem/1080)  
 - **12월 20일 ~ 12월 26일**  
-  - 구현 문제 풀이  
+  - 구현 문제 풀이
+    - **2주차 문제 리스트**
+      1. [구현-1: 기적의 매매법](https://www.acmicpc.net/problem/20546)
+      2. [구현-2: 기상캐스터](https://www.acmicpc.net/problem/10709)
+      3. [구현-3: 덩치](https://www.acmicpc.net/problem/7568)
 - **12월 27일 ~ 1월 2일**  
   - DFS/BFS 문제 풀이  
 - **1월 3일 ~ 1월 9일**  
@@ -50,7 +54,7 @@
 │   ├── 3.py
 │   ├── 4.py
 │   └── 5.py
-├── implement/
+├── implementation/
 ├── dfs_bfs/
 ├── sort/
 └── ...
