@@ -14,6 +14,7 @@ def sol(N, conditions):
             if result[i] == 0:
                 if empty_cnt == cnt:
                     result[i] = height
+                    break
                 empty_cnt += 1
     return result
 print(*sol(N=N, conditions=conditions))
