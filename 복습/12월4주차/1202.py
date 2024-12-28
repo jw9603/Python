@@ -15,6 +15,7 @@ def sol(N, jewels, bags):
     for bag in bags:
         while idx < N and jewels[idx][0] <= bag:
             heappush(heap, -(jewels[idx][1]))
+            idx += 1
         if heap:
             max_price -= heappop(heap)
     print(max_price)
