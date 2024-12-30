@@ -20,7 +20,7 @@ def sol(N, K, devices):
         not_used_in_future = -1
         far_index = -1
         
-        for device in devices:
+        for device in multitap:
             # 미래에 다시 사용하지 않을 전기 용품
             if device not in devices[i + 1:]:
                 not_used_in_future = device
