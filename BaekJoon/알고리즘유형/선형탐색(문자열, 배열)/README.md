@@ -6,11 +6,11 @@
 ---
 
 ## ✏️ 스터디 방법
-1. 선형 탐색(문자열, 배열)은 백준 사이트의 문제집에서 여러 문제집을 선택해서 풀었습니다.
-2. 구글링을 통해 실버~골드 레벨의 문제들을 풀고자 합니다.
+1. 알고리즘 분류 문제를 풉니다.
+2. 선형 탐색(문자열, 배열)은 백준 사이트의 문제집에서 여러 문제집을 선택해서 풀었습니다.
 
 
 ## 📚 참고자료
-1. [문자열 실버 문제 모음](https://www.acmicpc.net/workbook/view/9432)
-2. [문자열/KMP/트라이/접미사](https://www.acmicpc.net/workbook/view/14580)
+1. [알고리즘 분류 맞은 사람 수 내림차순 문제 모음(실버, 골드만)](https://www.acmicpc.net/problemset?sort=ac_desc&tier=6%2C7%2C8%2C9%2C10%2C11%2C12%2C13%2C14%2C15&algo=158&algo_if=and)
+2. [문자열 실버 문제 모음](https://www.acmicpc.net/workbook/view/9432) 
 ---
