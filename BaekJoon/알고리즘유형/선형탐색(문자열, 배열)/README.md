@@ -41,6 +41,7 @@
 28. [백준 1141. 접두사](https://www.acmicpc.net/problem/1141)
 29. [백준 9252. LCS 2](https://www.acmicpc.net/problem/9252)
 30. [백준 1958. LCS 3](https://www.acmicpc.net/problem/1958)
+31. [백준 2941. 크로아티아 알파벳](https://www.acmicpc.net/problem/2941)
 
 ## 📚 참고자료
 1. https://codingdodo.tistory.com/94
