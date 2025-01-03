@@ -16,7 +16,7 @@
 - **1월 10일 ~ 1월 17일**  
   - 스택 자료구조 문제 풀이
 - **1월 18일 ~ 1월 25일**  
-  - 해시 자료구조 문제 풀이(https://www.acmicpc.net/workbook/view/7745)
+  - 해시 자료구조(https://www.acmicpc.net/workbook/view/7745), 재귀, 이진 탐색 문제 풀이
 - **1월 26일 ~ 2월...?**  
   - DFS/BFS 문제 풀이  
 - 추후 지정
