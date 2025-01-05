@@ -23,7 +23,7 @@
 10. [백준 17413. 단어 뒤집기](https://www.acmicpc.net/problem/17413)
 11. [백준 20291. 파일 정리](https://www.acmicpc.net/problem/20291)
 12. [백준 1522. 문자열 교환](https://www.acmicpc.net/problem/1522)
-13. [백준 20437. 문자열 게임](https://www.acmicpc.net/problem/20437)
+13. [백준 20437. 문자열 게임2](https://www.acmicpc.net/problem/20437)
 14. [백준 2179. 비슷한 단어](https://www.acmicpc.net/problem/2179)
 15. [백준 9935. 문자열 폭발](https://www.acmicpc.net/problem/9935)
 16. [백준 1264. 모음의 개수](https://www.acmicpc.net/problem/1264)
