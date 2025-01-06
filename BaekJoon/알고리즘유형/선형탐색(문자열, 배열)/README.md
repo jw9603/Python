@@ -24,24 +24,34 @@
 11. [백준 20291. 파일 정리](https://www.acmicpc.net/problem/20291)
 12. [백준 1522. 문자열 교환](https://www.acmicpc.net/problem/1522)
 13. [백준 20437. 문자열 게임2](https://www.acmicpc.net/problem/20437)
-14. [백준 2179. 비슷한 단어](https://www.acmicpc.net/problem/2179)
-15. [백준 9935. 문자열 폭발](https://www.acmicpc.net/problem/9935)
-16. [백준 1264. 모음의 개수](https://www.acmicpc.net/problem/1264)
-17. [백준 2738. 행렬 덧셈](https://www.acmicpc.net/problem/2738)
-18. [백준 10871. X보다 작은 수 세기](https://www.acmicpc.net/problem/10871)
-19. [백준 3052. 나머지](https://www.acmicpc.net/problem/3052)
-20. [백준 2562. 최댓값](https://www.acmicpc.net/problem/2562)
-21. [백준 1316. 그룹 단어 체키](https://www.acmicpc.net/problem/1316)
-22. [백준 1267. 핸드폰 요금](https://www.acmicpc.net/problem/1267)
-23. [백준 1598. 꼬리를 무는 숫자 나열](https://www.acmicpc.net/problem/1598)
-24. [백준 9251. LCS](https://www.acmicpc.net/problem/9251)
-25. [백준 5430. AC](https://www.acmicpc.net/problem/5430)
-26. [백준 11656. 접미사 배열](https://www.acmicpc.net/problem/11656)
-27. [백준 1302. 베스트셀러](https://www.acmicpc.net/problem/1302)
-28. [백준 1141. 접두사](https://www.acmicpc.net/problem/1141)
-29. [백준 9252. LCS 2](https://www.acmicpc.net/problem/9252)
-30. [백준 1958. LCS 3](https://www.acmicpc.net/problem/1958)
-31. [백준 2941. 크로아티아 알파벳](https://www.acmicpc.net/problem/2941)
+14. [백준 9935. 문자열 폭발](https://www.acmicpc.net/problem/9935)
+15. [백준 1264. 모음의 개수](https://www.acmicpc.net/problem/1264)
+16. [백준 2738. 행렬 덧셈](https://www.acmicpc.net/problem/2738)
+17. [백준 10871. X보다 작은 수 세기](https://www.acmicpc.net/problem/10871)
+18. [백준 3052. 나머지](https://www.acmicpc.net/problem/3052)
+19. [백준 2562. 최댓값](https://www.acmicpc.net/problem/2562)
+20. [백준 1316. 그룹 단어 체키](https://www.acmicpc.net/problem/1316)
+21. [백준 1267. 핸드폰 요금](https://www.acmicpc.net/problem/1267)
+22. [백준 1598. 꼬리를 무는 숫자 나열](https://www.acmicpc.net/problem/1598)
+23. [백준 11656. 접미사 배열](https://www.acmicpc.net/problem/11656)
+24. [백준 1302. 베스트셀러](https://www.acmicpc.net/problem/1302)
+25. [백준 1141. 접두사](https://www.acmicpc.net/problem/1141)
+26. [백준 2941. 크로아티아 알파벳](https://www.acmicpc.net/problem/2941)
+
+---
+
+### 📖 추후에 풀 문제들:
+
+아래 문제들은 DP문제임
+1. [백준 9251. LCS](https://www.acmicpc.net/problem/9251)
+2. [백준 9252. LCS 2](https://www.acmicpc.net/problem/9252)
+3. [백준 1958. LCS 3](https://www.acmicpc.net/problem/1958)
+
+어려운 문제들
+1. [백준 5430. AC](https://www.acmicpc.net/problem/5430)
+2. [백준 2179. 비슷한 단어](https://www.acmicpc.net/problem/2179)
+
+---
 
 ## 📚 참고자료
 1. https://codingdodo.tistory.com/94
