@@ -22,7 +22,7 @@
 6. [백준 17478. 재귀함수가 뭔가요?](https://www.acmicpc.net/problem/17478)
 7. [백준 5568. 카드 놓기](https://www.acmicpc.net/problem/5568)
 8. [백준 24060. 알고리즘 수업 - 벙합 정렬1](https://www.acmicpc.net/problem/24060)
-9. [백준 4779. 칸토어 집합](https://www.acmicpc.net/problem/47790)
+9. [백준 4779. 칸토어 집합](https://www.acmicpc.net/problem/4779)
 10. [백준 1780. 종이의 개수](https://www.acmicpc.net/problem/1780)
 11. [백준 2630. 색종이 만들기](https://www.acmicpc.net/problem/2630)
 12. [백준 1629. 곱셈](https://www.acmicpc.net/problem/1629)
