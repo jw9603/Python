@@ -1,4 +1,4 @@
-# 백준 2609. 최대 공약수와 최소공배수
+# 백준 2609. 최대공약수와 최소공배수
 # https://www.acmicpc.net/problem/2609
 import sys
 a, b = map(int, sys.stdin.readline().split())
