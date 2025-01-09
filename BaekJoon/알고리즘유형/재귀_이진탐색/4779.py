@@ -14,7 +14,6 @@ def sol(n):
     
     # 3. 데이터 통합
     return ''.join([prev, space, prev])
-    pass
 while True:
     try:
         n = int(sys.stdin.readline().strip())
