@@ -29,7 +29,7 @@
 13. [백준 1992. 쿼드트리](https://www.acmicpc.net/problem/1992)
 14. [백준 2447. 별 찍기 -10](https://www.acmicpc.net/problem/2447)
 15. [백준 2448. 별 찍기 - 11](https://www.acmicpc.net/problem/2448)
-16. [백준 11729. Z](https://www.acmicpc.net/problem/1074)
+16. [백준 1074. Z](https://www.acmicpc.net/problem/1074)
 17. [백준 1914. 하노이 탑](https://www.acmicpc.net/problem/1914)
 18. [백준 11729. 하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729)
 
