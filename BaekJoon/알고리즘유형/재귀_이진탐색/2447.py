@@ -1,4 +1,5 @@
 # 백준 2447. 별 찍기 -10
+# https://www.acmicpc.net/problem/2447
 import sys
 N = int(sys.stdin.readline().strip())
 grid = [[' ' for _ in range(N)] for _ in range(N)]
@@ -7,7 +8,7 @@ def sol(x, y, grid, size):
     
     # 1. base case
     if size == 3:
-        grid[x][y] == '*'
+        grid[x][y] = '*'
         grid[x][y + 1] = '*'
         grid[x][y + 2] = '*'
         grid[x + 1][y] = '*'
@@ -26,6 +27,4 @@ def sol(x, y, grid, size):
 
 sol(0, 0, grid, N)
 for row in grid:
-    print(*row)
-
-
+    print(''.join(row))
