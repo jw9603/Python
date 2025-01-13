@@ -35,10 +35,31 @@
 
 
 이진 탐색 문제
-
+1. [백준 1789. 수들의 합](https://www.acmicpc.net/problem/1789)
+2. [백준 10815. 숫자 카드](https://www.acmicpc.net/problem/10815)
+3. [백준 2417. 정수 제곱근](https://www.acmicpc.net/problem/2417)
+4. [백준 19637. IF문 좀 대신 써줘](https://www.acmicpc.net/problem/19637)
+5. [백준 11663. 선분 위의 점](https://www.acmicpc.net/problem/11663)
+6. [백준 2512. 예산](https://www.acmicpc.net/problem/2512)
+7. [백준 1920. 수 찾기](https://www.acmicpc.net/problem/1920)
+8. [백준 10816. 숫자 카드 2[(https://www.acmicpc.net/problem/10816)]
+9. [백준 1654. 랜선 자르기](https://www.acmicpc.net/problem/1654)
+10. [백준 2805. 나무 자르기](https://www.acmicpc.net/problem/2805)
+11. [백준 3079. 입국심사](https://www.acmicpc.net/problem/3079)
+12. [백준 2470. 두 용액](https://www.acmicpc.net/problem/2470)
+13. [백준 20444. 색종이와 가위](https://www.acmicpc.net/problem/20444)
+14. [백준 1477. 휴게소 세우기](https://www.acmicpc.net/problem/1477)
+15. [백준 2110. 공유기 설치](https://www.acmicpc.net/problem/2110)
+16. [백준 13397. 구간 나누기 2](https://www.acmicpc.net/problem/13397)
+17. [백준 1939. 중량제한](https://www.acmicpc.net/problem/1939)
+18. [백준 2473. 세 용액](https://www.acmicpc.net/problem/2473)
+19. [백준 7453. 합이 0인 네 정수](https://www.acmicpc.net/problem/7453)
+20. [백준 1300. k번째 수](https://www.acmicpc.net/problem/1300)
+21. [백준 12015. 가장 긴 증가하는 부분 수열 2](https://www.acmicpc.net/problem/12015)
 ---
 
 ## 📚 참고자료
 1. [단계별로 풀이보기](https://www.acmicpc.net/step/19)
 2. [재귀 문제 모음집](https://www.acmicpc.net/workbook/view/7314)
-
+3. [단계별로 풀어보기](https://www.acmicpc.net/step/29)
+4. [이분 탐색 추천 모음집](https://github.com/tony9402/baekjoon/tree/main/algorithms/binary_search)
