@@ -42,7 +42,7 @@
 5. [백준 11663. 선분 위의 점](https://www.acmicpc.net/problem/11663)
 6. [백준 2512. 예산](https://www.acmicpc.net/problem/2512)
 7. [백준 1920. 수 찾기](https://www.acmicpc.net/problem/1920)
-8. [백준 10816. 숫자 카드 2[(https://www.acmicpc.net/problem/10816)]
+8. [백준 10816. 숫자 카드 2](https://www.acmicpc.net/problem/10816)
 9. [백준 1654. 랜선 자르기](https://www.acmicpc.net/problem/1654)
 10. [백준 2805. 나무 자르기](https://www.acmicpc.net/problem/2805)
 11. [백준 3079. 입국심사](https://www.acmicpc.net/problem/3079)
