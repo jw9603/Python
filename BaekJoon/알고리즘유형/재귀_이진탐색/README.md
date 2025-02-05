@@ -32,6 +32,7 @@
 16. [백준 1074. Z](https://www.acmicpc.net/problem/1074)
 17. [백준 1914. 하노이 탑](https://www.acmicpc.net/problem/1914)
 18. [백준 11729. 하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729)
+19. [백준 10830. 행렬 제곱](https://www.acmicpc.net/problem/10830)
 
 
 이진 탐색 문제
@@ -56,6 +57,8 @@
 19. [백준 7453. 합이 0인 네 정수](https://www.acmicpc.net/problem/7453)
 20. [백준 1300. k번째 수](https://www.acmicpc.net/problem/1300)
 21. [백준 12015. 가장 긴 증가하는 부분 수열 2](https://www.acmicpc.net/problem/12015)
+22. [백준 8983. 사냥꾼](https://www.acmicpc.net/problem/8983)
+23. [백준 16564. 히오스 프로게이머](https://www.acmicpc.net/problem/16564)
 ---
 
 ## 📚 참고자료
