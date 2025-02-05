@@ -52,14 +52,13 @@
 35. [백준 2346. 풍선 터뜨리기](https://www.acmicpc.net/problem/2346)
 36. [백준 22942. 데이터 체커](https://www.acmicpc.net/problem/22942)
 37. [백준 6549. 히스토그램에서 가장 큰 직사각형](https://www.acmicpc.net/problem/6549)
-38. [백준 4195. 친구 네트워크](https://www.acmicpc.net/problem/4195)
-39. [백준 13335. 트럭](https://www.acmicpc.net/problem/13335)
-40. [백준 17299. 오등큰수](https://www.acmicpc.net/problem/17299)
-41. [백준 10000. 원영역](https://www.acmicpc.net/problem/10000)
-42. [백준 2841. 외계인의 기타 연주](https://www.acmicpc.net/problem/2841)
-43. [백준 7662. 이중 우선순위 큐](https://www.acmicpc.net/problem/7662)
-44. [백준 1021. 회전하는 큐](https://www.acmicpc.net/problem/1021)
-45. [백준 11478. 서로 다른 부분 문자열의 개수](https://www.acmicpc.net/problem/11478)
+38. [백준 13335. 트럭](https://www.acmicpc.net/problem/13335)
+39. [백준 17299. 오등큰수](https://www.acmicpc.net/problem/17299)
+40. [백준 10000. 원영역](https://www.acmicpc.net/problem/10000)
+41. [백준 2841. 외계인의 기타 연주](https://www.acmicpc.net/problem/2841)
+42. [백준 7662. 이중 우선순위 큐](https://www.acmicpc.net/problem/7662)
+43. [백준 1021. 회전하는 큐](https://www.acmicpc.net/problem/1021)
+44. [백준 11478. 서로 다른 부분 문자열의 개수](https://www.acmicpc.net/problem/11478)
 ---
 
 ## 📚 참고자료
