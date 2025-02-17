@@ -23,7 +23,7 @@
 10. [백준 11724. 연결 요소의 개수](https://www.acmicpc.net/problem/11724)
 11. [백준 7576. 토마토](https://www.acmicpc.net/problem/7576)
 12. [백준 11725. 트리의 보무 찾기](https://www.acmicpc.net/problem/11725)
-13. [백준 4693. 섬의 개수](https://www.acmicpc.net/problem/4963)
+13. [백준 4963. 섬의 개수](https://www.acmicpc.net/problem/4963)
 14. [백준 7562. 나이트의 이동](https://www.acmicpc.net/problem/7562)
 15. [백준 2644. 촌수계산](https://www.acmicpc.net/problem/2644)
 16. [백준 1743. 음식물 피하기](https://www.acmicpc.net/problem/1743)
