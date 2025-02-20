@@ -47,6 +47,7 @@
 34. [백준 10974. 모든 순열](https://www.acmicpc.net/problem/10974)
 35. [백준 2529. 부등호](https://www.acmicpc.net/problem/2529)
 36. [백준 15684. 사다리 조작](https://www.acmicpc.net/problem/15684)
+37. [백준 1065. 한수](https://www.acmicpc.net/problem/1065)
 ---
 ## 📚 참고자료
 1. https://www.acmicpc.net/problemset?sort=ac_desc&tier=1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10%2C11%2C12%2C13%2C14%2C15&algo=125%2C5&algo_if=and
