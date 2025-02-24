@@ -78,7 +78,7 @@
 20. [백준 6603. 로또](https://www.acmicpc.net/problem/6603)
 21. [백준 1987. 알파벳](https://www.acmicpc.net/problem/1987)
 22. [백준 2580. 스도쿠](https://www.acmicpc.net/problem/2580)
-23. [백준 212100. (EASY)](https://www.acmicpc.net/problem/12100)
+23. [백준 2048. (EASY)](https://www.acmicpc.net/problem/12100)
 24. [백준 15683. 감시](https://www.acmicpc.net/problem/15683)
 25. [백준 10819. 차이를 최대로](https://www.acmicpc.net/problem/10819)
 26. [백준 10974. 모든 순열](https://www.acmicpc.net/problem/10974)
