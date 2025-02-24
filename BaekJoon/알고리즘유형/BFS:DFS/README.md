@@ -42,6 +42,7 @@
 29. [백준 10026. 적록색약](https://www.acmicpc.net/problem/10026)
 30. [백준 14502. 연구소](https://www.acmicpc.net/problem/14502)
 31. [백준 2617. 구슬 찾기](https://www.acmicpc.net/problem/2617)
+32. [백준 2589. 보물섬](https://www.acmicpc.net/problem/2589)
 
 ---
 ## 📚 참고자료
