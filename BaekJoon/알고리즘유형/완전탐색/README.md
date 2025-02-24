@@ -48,7 +48,13 @@
 35. [백준 1065. 한수](https://www.acmicpc.net/problem/1065)
 
 ---
+
+## 📅 기간  
+- **2025년 2월 24일** ~ **3월 10일**
+  
 ## 📖 백트래킹 문제 리스트
+
+
 
 1. [백준 15649. N과 M (1)](https://www.acmicpc.net/problem/15649)
 2. [백준 15650. N과 M (2)](https://www.acmicpc.net/problem/15650)
