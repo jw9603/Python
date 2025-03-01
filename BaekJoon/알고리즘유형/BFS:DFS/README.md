@@ -44,10 +44,9 @@
 31. [백준 2617. 구슬 찾기](https://www.acmicpc.net/problem/2617)
 32. [백준 2589. 보물섬](https://www.acmicpc.net/problem/2589)
 33. [백준 18352. 특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352)
-34. [백준 1916. 최소비용 구하기](https://www.acmicpc.net/problem/1916)
-35. [백준 7569. 토마토](https://www.acmicpc.net/problem/7569)
-36. [백준 2665. 미로만들기](https://www.acmicpc.net/problem/2665)
-37. [백준 3055. 탈출](https://www.acmicpc.net/problem/3055)
+34. [백준 7569. 토마토](https://www.acmicpc.net/problem/7569)
+35. [백준 2665. 미로만들기](https://www.acmicpc.net/problem/2665)
+36. [백준 3055. 탈출](https://www.acmicpc.net/problem/3055)
 ---
 ## 📚 참고자료
 1. https://covenant.tistory.com/224
