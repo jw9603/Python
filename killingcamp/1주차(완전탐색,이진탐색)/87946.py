@@ -2,21 +2,41 @@
 # https://school.programmers.co.kr/learn/courses/30/lessons/87946
 from itertools import permutations
 def solution(k, dungeons):
-    # 최소 필요 피로도: 탐험하기 위해 가지고 있어야 하는 최소한의 피로도,
-    # 소모 피로도: 던전을 탐험한 후 소모되는 피로도
-    max_cnt = 0
+    max_dungeons = 0
     
     for perm in permutations(dungeons):
         current_k = k
-        current_cnt = 0
-        for min_required, cost in perm: # (최소 필요 피로도, 소모 피로도)
-            if min_required <= current_k:
+        current_dungeons = 0
+        
+        for required_cost, cost in perm:
+            if current_k >= required_cost:
                 current_k -= cost
-                current_cnt += 1
+                current_dungeons += 1
             else:
                 break
-        max_cnt = max(max_cnt, current_cnt)
-    return max_cnt
+        max_dungeons = max(max_dungeons, current_dungeons)
+    return max_dungeons
+            
+def solution(k, dungeons):
+    max_dungeons = 0
+    N = len(dungeons)
+    used = [False] * N
+    
+    def dfs(cnt, energy):
+        nonlocal max_dungeons
+        max_dungeons = max(max_dungeons, cnt)
+        
+        if cnt == len(dungeons):
+            return
+        
+        for i in range(N):
+            if not used[i] and energy >= dungeons[i][0]:
+                used[i] = True
+                dfs(cnt + 1, energy - dungeons[i][1])
+                used[i] = False
+    dfs(0, k)
+    
+    return max_dungeons
                 
 if __name__ == '__main__':
     k, dungeons = 80, [[80,20],[50,40],[30,10]]
