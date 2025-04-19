@@ -14,7 +14,7 @@ def bfs(N, K):
 
         if 0 <= cur_x * 2 <= 100000 and not visited[2 * cur_x]:
             visited[2 * cur_x] = True
-            queue.append((2 * cur_x, cur_t))
+            queue.appendleft((2 * cur_x, cur_t))
         
         if 0 <= cur_x - 1 <= 100000 and not visited[cur_x - 1]:
             visited[cur_x - 1] = True
