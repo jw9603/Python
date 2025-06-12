@@ -9,6 +9,7 @@
 # K인 도시를 출력
 ################################ 문제 이해 ################################
 from collections import defaultdict, deque
+import sys
 def bfs(N, graph, K, start, visited):
     queue = deque([start])
     visited[start] = 0
@@ -30,14 +31,14 @@ def sol(N, K, X, graph):
 
     result = bfs(N, graph, K, X, visited)
 
-    print(*sorted(result), sep='\n' if result else -1)
+    print(*sorted(result), end='\n') if result else print(-1)
 
 def main():
-    N, M, K, X = map(int, input().split())
+    N, M, K, X = map(int, sys.stdin.readline().split())
     graph = defaultdict(list)
 
     for _ in range(M):
-        a, b = map(int, input().split())
+        a, b = map(int, sys.stdin.readline().split())
         graph[a].append(b)
 
     sol(N, K, X, graph)
