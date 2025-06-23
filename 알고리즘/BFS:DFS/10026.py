@@ -12,6 +12,7 @@
 
 
 ################################# 문제 이해 #################################
+## BFS
 from collections import deque
 def count_region(grid, N):
     visited = [[False] * N for _ in range(N)] 
@@ -40,6 +41,47 @@ def bfs(x, y, color, visited, grid, N):
                 if not visited[next_x][next_y] and grid[next_x][next_y] == color:
                     visited[next_x][next_y] = True
                     queue.append((next_x, next_y))
+
+def main():
+    N = int(input().strip())
+    grid = [list(input().strip()) for _ in range(N)]
+
+    normal_cnt = count_region(grid, N)
+
+    blind_grid = [['G' if grid[i][j] == 'R' else grid[i][j] for j in range(N)] for i in range(N)] 
+
+    blind_cnt = count_region(blind_grid, N)
+
+    print(normal_cnt, blind_cnt)
+
+if __name__ == '__main__':
+    main()
+
+## DFS 
+import sys
+sys.setrecursionlimit(10 ** 6)
+def count_region(grid, N):
+    visited = [[False] * N for _ in range(N)] 
+    cnt = 0
+
+    for i in range(N):
+        for j in range(N):
+            if not visited[i][j]:
+                cnt += 1
+                dfs(i, j, grid[i][j], visited, grid, N)
+    
+    return cnt
+
+def dfs(x, y, color, visited, grid, N):
+    directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
+    visited[x][y] = True
+
+    for dx, dy in directions:
+        next_x, next_y = x + dx, y + dy
+
+        if 0 <= next_x < N and 0 <= next_y < N:
+            if not visited[next_x][next_y] and grid[next_x][next_y] == color:
+                dfs(next_x, next_y, color, visited, grid, N)
 
 def main():
     N = int(input().strip())
