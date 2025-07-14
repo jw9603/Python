@@ -23,6 +23,8 @@
 - [**Top Interview Questions**](https://leetcode.com/explore/interview/card/top-interview-questions-easy/) 문제 중심으로 풀이
 - 다양한 언어/환경에 대한 적응력 향상 목표
 
+### 📌 3. 알고리즘, 자료구조 구현
+- 알고리즘, 자료구조를 파이썬으로 직접 구현
 ---
 
 ## 🛠️ 사용 언어 및 환경
@@ -41,6 +43,8 @@
 │   └──class1
     └──class2,,,
 ├── Top_Interview_Questions          # 리트코드
+├── Algorithm
+├── Data_Structure
 └── README.md
 ```
 
