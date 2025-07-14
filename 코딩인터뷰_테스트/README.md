@@ -20,7 +20,7 @@
 - CLASS 3~4 도달 후 삼성 기출 병행 예정
 
 ### 📌 2. LeetCode
-- **Top Interview Questions** 문제 중심으로 풀이
+- [**Top Interview Questions**](https://leetcode.com/explore/interview/card/top-interview-questions-easy/) 문제 중심으로 풀이
 - 다양한 언어/환경에 대한 적응력 향상 목표
 
 ---
